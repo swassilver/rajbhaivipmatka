@@ -15,33 +15,33 @@ export default function Page() {
           height={150}
           className="rounded-full mx-auto"
         />
-        <p className="text-center text-card">
+        <p className="text-center text-card font-bold">
           Satta Matka Main 100% Bada Paisa Jitna chahte Hai To{" "}
           <br className="md:block hidden" />
           Hamara Telegram Channel Joine Kre <br className="md:block hidden" />
           Aaj Hi Bilkul Free
         </p>
-        <Button className="rounded-md w-full" asChild>
+        <Button className="rounded-md w-full uppercase font-bold py-3" asChild>
           <Link href="https://t.me/+nSKSfeVRtBxmYWVl">
             Join Telegram Channel
           </Link>
         </Button>
-        <p className="text-card text-center">
+        <p className="text-card text-center font-bold">
           FIX OPEN, CLOSE, JODI AND PANEL. ✌⚡
         </p>
         <div className="w-full p-3 bg-red-400">
-          <p className="text-card text-center">
+          <p className="text-card text-center font-bold">
             India.s best SATTA MATKA CHANNEL
           </p>
         </div>
-        <p className="text-card text-center">ALL MATKA GAME AVAILABLE</p>
-        <p className="text-card text-center">
+        <p className="text-card text-center font-bold">ALL MATKA GAME AVAILABLE</p>
+        <p className="text-card text-center font-bold">
           KALYAN MILAN, MAIN BAZAR TIME BAZAR SRIDEVI,, RAJDHANI
         </p>
-        <Button className="rounded-md w-full">
+        <Button className="rounded-md uppercase font-bold py-3 w-full">
           <Link href="https://t.me/+nSKSfeVRtBxmYWVl">Join FREE Now</Link>
         </Button>
-        <p className="text-card text-center">
+        <p className="text-card text-center font-bold">
           🥇 DALY 5-7 GAME PASS BY OUR EXPERT 🥇
         </p>
 
