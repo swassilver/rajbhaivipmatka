@@ -21,7 +21,7 @@ export default function Page() {
           Hamara Telegram Channel Joine Kre <br className="md:block hidden" />
           Aaj Hi Bilkul Free
         </p>
-        <Button className="rounded-md w-full uppercase font-bold py-3" asChild>
+        <Button className="rounded-md w-full uppercase font-bold py-5" asChild>
           <Link href="https://t.me/+nSKSfeVRtBxmYWVl">
             Join Telegram Channel
           </Link>
@@ -38,7 +38,7 @@ export default function Page() {
         <p className="text-card text-center font-bold">
           KALYAN MILAN, MAIN BAZAR TIME BAZAR SRIDEVI,, RAJDHANI
         </p>
-        <Button className="rounded-md uppercase font-bold py-3 w-full">
+        <Button className="rounded-md uppercase font-bold py-5 w-full">
           <Link href="https://t.me/+nSKSfeVRtBxmYWVl">Join FREE Now</Link>
         </Button>
         <p className="text-card text-center font-bold">
