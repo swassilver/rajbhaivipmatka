@@ -2,7 +2,7 @@ import Image from "next/image";
 import logo from "@/assets/WhatsApp Image 2026-01-28 at 9.38.54 AM.jpeg";
 import { Button } from "@/components/ui/button";
 import Countdown from "@/components/Countdown";
-import Link from "next/link";
+import { Send } from "lucide-react";
 
 export default function Page() {
   return (
@@ -21,10 +21,18 @@ export default function Page() {
           Hamara Telegram Channel Joine Kre <br className="md:block hidden" />
           Aaj Hi Bilkul Free
         </p>
-        <Button className="rounded-md w-full uppercase font-bold py-10" asChild>
-          <Link href="https://t.me/+nSKSfeVRtBxmYWVl">
-            Join Telegram Channel
-          </Link>
+        <Button className="rounded-md w-full uppercase font-bold py-7" asChild>
+        
+            <a
+    href="https://t.me/+nSKSfeVRtBxmYWVl"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center justify-center gap-3"
+  >
+   <Send />
+
+    <span> Join Telegram Channel</span>
+  </a>
         </Button>
         <p className="text-card text-center font-bold">
           FIX OPEN, CLOSE, JODI AND PANEL. ✌⚡
@@ -34,13 +42,26 @@ export default function Page() {
             India.s best SATTA MATKA CHANNEL
           </p>
         </div>
-        <p className="text-card text-center font-bold">ALL MATKA GAME AVAILABLE</p>
+        <p className="text-card text-center font-bold">
+          ALL MATKA GAME AVAILABLE
+        </p>
         <p className="text-card text-center font-bold">
           KALYAN MILAN, MAIN BAZAR TIME BAZAR SRIDEVI,, RAJDHANI
         </p>
-        <Button className="rounded-md uppercase font-bold py-10 w-full">
-          <Link href="https://t.me/+nSKSfeVRtBxmYWVl">Join FREE Now</Link>
-        </Button>
+      <Button className="rounded-md uppercase font-bold py-7 w-full " asChild>
+  <a
+    href="https://t.me/+nSKSfeVRtBxmYWVl"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="flex items-center justify-center gap-3"
+  >
+     <span>Join FREE Now</span>
+   <Send />
+
+   
+  </a>
+</Button>
+
         <p className="text-card text-center font-bold">
           🥇 DALY 5-7 GAME PASS BY OUR EXPERT 🥇
         </p>
