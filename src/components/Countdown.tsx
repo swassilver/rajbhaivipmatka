@@ -33,10 +33,10 @@ export default function Countdown({ targetDate }: { targetDate: string }) {
     <div className="flex justify-center gap-4 text-center text-card">
       {Object.entries(timeLeft).map(([key, value]) => (
         <div key={key}>
-          <p className="text-2xl font-bold">
+          <p className="text-2xl font-bold text-red-500">
             {String(value).padStart(2, "0")}
           </p>
-          <p className="text-xs uppercase">{key}</p>
+          <p className="text-xs uppercase text-red-500">{key}</p>
         </div>
       ))}
     </div>
