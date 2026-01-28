@@ -36,7 +36,7 @@ export default function Countdown({ targetDate }: { targetDate: string }) {
           <p className="text-2xl font-bold text-red-500">
             {String(value).padStart(2, "0")}
           </p>
-          <p className="text-xs uppercase text-red-500">{key}</p>
+          <p className="text-xs uppercase text-yellow-500">{key}</p>
         </div>
       ))}
     </div>
